@@ -1,0 +1,82 @@
+@media (max-width: 37.4em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    position: relative;
+  }
+
+  main {
+    display: block;
+    /* flex-direction: column; */
+    position: absolute;
+    width: 100%;
+
+    border-radius: 0% 0% 50px 50px;
+    height: 100%;
+  }
+
+  .first {
+    padding: 45px 40px 60px 40px;
+    width: 100%;
+    border-radius: 0% 0% 50px 50px;
+  }
+
+  .score {
+    margin-top: 20px;
+    width: 42%;
+    height: 44%;
+    margin-bottom: 20px;
+  }
+
+  .my-score {
+    font-size: 6rem;
+    top: 40%;
+    transform: translate(0, 1%);
+  }
+
+  .total-score {
+    color: hsl(241, 100%, 89%);
+    font-size: 1.4rem;
+    position: relative;
+    top: 0%;
+    transform: translate(0, -50%);
+  }
+
+  great {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 12px;
+  }
+
+  .para-first {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+  }
+
+  .second {
+    padding: 45px 30px 60px 30px;
+    width: 100%;
+  }
+
+  .summary {
+    margin-bottom: 45px;
+  }
+
+  .points {
+    font-size: 1.8rem;
+    padding: 2rem 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+  }
+
+  button {
+    padding: 2rem 10.8rem;
+  }
+}

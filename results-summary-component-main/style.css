@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  line-height: 1.4;
+  max-width: 120rem;
+  /* position: relative; */
+}
+
+main {
+  width: 92rem;
+  height: 85%;
+  box-shadow: 20px 5rem 4.8rem rgba(0, 0, 0, 0.075);
+  display: flex;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first {
+  width: 50%;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 45px 75px 60px 75px;
+}
+
+.first-h1 {
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+}
+
+.score {
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  width: 83%;
+  height: 50%;
+  margin: auto;
+}
+
+.my-score {
+  color: white;
+  font-size: 9rem;
+  font-weight: 800;
+  position: relative;
+  top: 44%;
+  transform: translate(0, -50%);
+}
+
+.total-score {
+  color: hsl(241, 100%, 89%);
+  font-size: 2.2rem;
+  position: relative;
+  top: 22%;
+  transform: translate(0, -50%);
+}
+
+.great {
+  color: white;
+  font-size: 4.2rem;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.para-first {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: hsl(241, 100%, 89%);
+}
+
+.second {
+  width: 50%;
+  display: flex;
+
+  border-radius: 35px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4.5rem 5rem 6rem 5rem;
+}
+
+.points {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.2rem;
+  padding: 2rem 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.points--reaction {
+  background-color: hsla(0, 100%, 67%, 0.075);
+}
+
+.points--memory {
+  background-color: hsla(39, 100%, 56%, 0.075);
+}
+
+.points--verbal {
+  background-color: hsla(166, 100%, 37%, 0.075);
+}
+
+.points--visual {
+  background-color: hsla(234, 85%, 45%, 0.075);
+}
+
+button {
+  text-decoration: none;
+  border: None;
+  font-weight: 700;
+  padding: 2rem 13.8rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+}
+
+button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+footer {
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
