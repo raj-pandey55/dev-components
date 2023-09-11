@@ -11,7 +11,7 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-![Design result sumaary component desktop](./design/results-summary-component-desktop.pngresults-summary-components-desktop.png)
+![Design result sumaary component desktop](./design/results-summary-component-desktop.jpg)
 
 ![Design result sumaary component desktop](./design/results-summary-component-mobile.jpg)
 
