@@ -28,4 +28,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@raj-pandey55](https://www.frontendmentor.io/profile/raj-pandey55)
-- Twitter - [@rajpandeyyyy](https://www.twitter.com/rajpandeyyyy)
+
